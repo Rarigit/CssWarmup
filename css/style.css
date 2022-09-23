@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 14pt;
+    background-color: bisque;
+}
+
+
+#logo{
+    height: 100px;
+}
+
+.comedianPhoto {
+    height: 450px;
+}
+
+#copyrightStatement{
+    font-style: italic;
+    font-size: 12px;
+}
+
+main > img {
+    height: 850px;
+    margin: 70px, 50px;
+}
+
+h2{
+    border: 5px groove aquamarine;
+    /*border-right: 1in solid black;*/
+    padding: 10px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+span{
+    display: block;
+}
+
+body > div, span{
+    /* This is a division to 7 elements where 100 is the whole screem */
+    height: 14.3vh;
+    border: 5px solid black;
+    margin-top: -5px;
+    box-sizing: border-box;
+}
+
+div > div{
+    border: 2px crimson dashed;
+    display: inline-block;
+    width: 33.33%;
+    box-sizing: border-box;
+
+}
+
+
+#one{
+    background-color: aqua;
+    width: 10in;
+    margin-top: initial;
+    font-size: 1.5rem;
+}
+
+body{
+    font-size: 30pt;
+}
+
+#two{
+    background-color: yellow;
+    width: 10cm;
+    color: black;
+    font-size: 1.5em;
+}
+
+#three{
+    background-color: green;
+    width: 10pc;
+}
+
+#four{
+    background-color: red;
+    width: 10pts;
+}
+
+#five{
+    background-color: black;
+    width: 10mm;
+}
+
+#six{
+    background-color: white;
+    width: 10px;
+}
+
+
+
